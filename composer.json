@@ -1,0 +1,17 @@
+{
+    "name": "fastre/libreavatar-bundle",
+    "require": {
+        "symfony/symfony": "2.1.*"
+    },
+    "require-dev": {
+        "symfony/symfony": "2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Fastré",
+            "email": "julien@fastre.info"
+        }
+    ],
+    "minimum-stability": "dev"
+}
