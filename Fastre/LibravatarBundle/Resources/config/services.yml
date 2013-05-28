@@ -1,0 +1,7 @@
+parameters:
+#    fastre_libravatar.example.class: Fastre\LibravatarBundle\Example
+
+services:
+#    fastre_libravatar.example:
+#        class: %fastre_libravatar.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
