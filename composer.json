@@ -13,5 +13,8 @@
             "email": "julien@fastre.info"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "Fastre\\LibravatarBundle": "" }
+    },
 }
