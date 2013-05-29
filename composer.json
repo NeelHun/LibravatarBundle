@@ -18,5 +18,5 @@
     "autoload": {
         "psr-0": { "Fastre\\LibravatarBundle": "" }
     },
-    "target-dir": "Fastre/LibravatarBundle",
+    "target-dir": "Fastre/LibravatarBundle"
 }
