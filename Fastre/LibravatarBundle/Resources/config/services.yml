@@ -1,4 +1,4 @@
 
 services:
   libravatar.provider:
-    class: Fastre\Libravatar\Services\ServiceLibravatar
+    class: Fastre\LibravatarBundle\Services\ServiceLibravatar
