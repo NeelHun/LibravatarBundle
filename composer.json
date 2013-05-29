@@ -17,5 +17,6 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-0": { "Fastre\\LibravatarBundle": "" }
-    }
+    },
+    "target-dir" : "Fastre/LibravatarBundle"
 }
