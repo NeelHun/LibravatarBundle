@@ -1,5 +1,5 @@
 {
-    "name": "fastre/libreavatar-bundle",
+    "name": "fastre/libravatar-bundle",
     "description" : "A simple implementation of Libravatar into Symfony",
     "require": {
         "symfony/symfony": "2.1.*"
@@ -17,5 +17,6 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-0": { "Fastre\\LibravatarBundle": "" }
-    }
+    },
+    "target-dir": "Fastre/LibravatarBundle",
 }
