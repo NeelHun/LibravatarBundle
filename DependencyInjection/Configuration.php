@@ -17,8 +17,12 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('fastre_libravatar');
+        $treeBuilder = new TreeBuilder('fastre_libravatar');
+	    if (!method_exists($treeBuilder, 'getRootNode')) {
+		    $rootNode = $treeBuilder->root('fastre_libravatar');
+	    } else {
+		    $rootNode = $treeBuilder->getRootNode();
+	    }
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
